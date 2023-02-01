@@ -1,3 +1,4 @@
+var nomeCognome = document.getElementById("nome-cognome");
 var distanza = document.getElementById("distanza");
 var discount = document.getElementById("discount");
 var buttonGenerate = document.getElementById("button-generate");

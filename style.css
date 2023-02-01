@@ -13,3 +13,7 @@
     .card{
         padding: 50px;
     }
+
+    .d-block{
+        display: block;
+    }
