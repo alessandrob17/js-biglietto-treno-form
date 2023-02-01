@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto treno form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <div class="card">
+            <h1>Calcola il prezzo del tuo biglietto</h1>
+
+  <p>Km da percorrere: <input type="number" id="distanza"></p>
+
+  <p>Fascia d'età: 
+    <select id="discount">
+      <option value="none">Nessuno sconto</option>
+      <option value="minorenne">Sconto minorenne</option>
+      <option value="over">Sconto over 65</option>
+    </select>
+  </p>
+
+  <button id="button-generate">Genera prezzo</button>
+
+  <p id="result"></p>
+        </div>
+    </div>
+
+
 
 
 

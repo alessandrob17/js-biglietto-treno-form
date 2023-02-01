@@ -1,0 +1,15 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{
+        padding: 50px;
+    }
